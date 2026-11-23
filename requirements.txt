@@ -1,0 +1,7 @@
+pandas>=2.2,<3
+SQLAlchemy>=2,<3
+psycopg2-binary>=2.9,<3
+python-dotenv>=1,<2
+lxml>=5,<7
+selenium>=4.20,<5
+webdriver-manager>=4,<5

@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+logs/
+dados/
+*.pbix
+*.bim
+*.tar.gz
+CONEXOES_SESAU*
