@@ -1,0 +1,8 @@
+-- Medida Pressao_Atual aplicada no modelo aberto em 16/11/2026.
+-- Respeita filtros de cidade, ponto e periodo, sem ALL(historico).
+VAR Instante = MAX(historico_qualidade_ar[data_hora])
+RETURN
+    CALCULATE(
+        MAX(historico_qualidade_ar[pressao]),
+        historico_qualidade_ar[data_hora] = Instante
+    )
